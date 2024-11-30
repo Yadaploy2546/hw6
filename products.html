@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ร้านต้นไม้ - สินค้า</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,400;0,600;1,400&family=Srisakdi:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Sarabun', sans-serif; }
+        h1, h2, h3 { font-family: 'Srisakdi', cursive; }
+    </style>
+</head>
+<body class="bg-green-50 font-sans">
+    <!-- Header -->
+    <header class="bg-green-700 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">ร้านต้นไม้</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:text-green-300">หน้าแรก</a></li>
+                    <li><a href="products.html" class="hover:text-green-300">สินค้า</a></li>
+                    <li><a href="contact.html" class="hover:text-green-300">ติดต่อเรา</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Product Section -->
+    <section class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center text-green-800 mb-8">สินค้า</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product Card -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="img/ff.jpg" alt="ฟอกอากาศ">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-green-800">ต้นไม้ฟอกอากาศ</h3>
+                        <p class="text-green-600 mt-2">ราคา: ฿300</p>
+                        <button class="mt-4 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700">ซื้อไหมจ๊ะ</button>
+                    </div>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="img/kk.jpg" alt="กระบองเพชร">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-green-800">ต้นแคสตัส</h3>
+                        <p class="text-green-600 mt-2">ราคา: ฿300</p>
+                        <button class="mt-4 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700">ซื้อไหมจ๊ะ</button>
+                    </div>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="img/kbb.jpg" alt="กระบองเพชรไม่บวมน้ำ">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-green-800">ต้นแคสตัส</h3>
+                        <p class="text-green-600 mt-2">ราคา: ฿300</p>
+                        <button class="mt-4 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700">ซื้อไหมจ๊ะ</button>
+                    </div>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-700 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>© 2024 ร้านต้นไม้</p>
+        </div>
+    </footer>
+</body>
+</html>
